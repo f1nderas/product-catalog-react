@@ -1,0 +1,67 @@
+.container {
+  padding: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.search {
+  margin-bottom: 24px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.filter {
+  margin-bottom: 32px;
+
+  .select {
+    background-color: #fff;
+  }
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .media {
+    height: 200px;
+    object-fit: contain;
+    padding: 16px;
+  }
+
+  .content {
+    flex-grow: 1;
+    padding: 16px;
+
+    .title {
+      margin-bottom: 8px;
+      font-size: 1.1rem;
+    }
+
+    .category {
+      margin-bottom: 16px;
+      color: #1976d2;
+    }
+
+    .rating {
+      margin-bottom: 16px;
+    }
+  }
+}
+
+.pagination {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  margin-top: 16px;
+  text-align: center;
+}
