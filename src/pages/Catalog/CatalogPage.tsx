@@ -150,7 +150,7 @@ export const CatalogPage = () => {
       <Pagination
         count={totalPages}
         page={page}
-        onChange={(e, value) => setPage(value)}
+        onChange={(_, value) => setPage(value)}
         className={styles.pagination}
       />
       <div className={styles.link}>
